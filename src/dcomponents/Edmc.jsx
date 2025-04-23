@@ -140,16 +140,16 @@ const Edmc = () => {
 
   return (
     <div className="bg-white shadow-md p-3 rounded-lg w-full">
-<div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+<div className="grid grid-cols-1  sm:grid-cols-3 lg:grid-cols-4 gap-4">
   {/* Facility Info */}
-  <div className="sm:hidden lg:flex flex-col justify-center items-center sm:border-r border-gray-300 sm:pr-4 h-full pt-1 space-y-2">
-    <h4 className="text-md text-gray-900">Facility Information</h4>
-    <p className="text-sm font-bold text-gray-900">Metalware Corporation</p>
-    <p className="text-sm">
+  <div className="sm:hidden lg:flex flex-col justify-center items-center border-b sm:border-b-0 sm:border-r border-gray-300 sm:pr-4 h-full pt-1 space-y-1 sm:space-y-2">
+    <h4 className="text-md text-gray-900 justify-self-center">Facility Information</h4>
+    <p className="text-md font-bold text-gray-900 justify-self-center">Metalware Corporation</p>
+    <p className="text-sm  justify-self-center">
       <span className="text-gray-900">BUA: </span>
       <span className="font-bold text-gray-900">50,000 sq.ft.</span>
     </p>
-    <p className="text-sm">
+    <p className="text-sm justify-self-center">
       <span className="text-gray-900">Location: </span>
       <span className="font-bold text-gray-900">Noida, India</span>
     </p>
