@@ -5,13 +5,13 @@ import lux_scale from "../sections/pictures/lux_scale.png";
 
 const CombinedLuxAnalysis = () => {
   return (
-    <div className="flex flex-col sm:flex-row items-center p-6 bg-white rounded-lg justify-around gap-[20px] shadow-md sm:space-x-6">
-      <div className="flex flex-col items-center pt-6 bg-white rounded-lg justify-around gap-[20px]">
-        <h1 className="text-2xl font-bold text-black">LUX Analysis</h1>
+    <div className="flex flex-col sm:flex-row items-center p-4 bg-white rounded-lg justify-around gap-[20px] shadow-md sm:space-x-6">
+      <div className="flex flex-col items-center bg-white rounded-lg justify-around gap-[20px]">
+        <h1 className="text-xl lg:text-2xl font-bold text-black">LUX Analysis</h1>
         <img
           src={lux_img}
           alt="LUX Analysis"
-          className="w-[auto] h-[70%] pt-3"
+          className="w-[auto] h-[70%] pt-3 p-2"
         />
       </div>
 
@@ -21,13 +21,13 @@ const CombinedLuxAnalysis = () => {
       className="w-[auto] h-[15vh] md:h-[13vh] lg:h-[13vh] xl:h-[25vh] "
       />
 
-      <div className="flex flex-col items-center pt-6 bg-white rounded-lg justify-around gap-[20px]
+      <div className="flex flex-col items-center bg-white rounded-lg justify-around gap-[20px]
       ">
-        <h1 className="text-2xl font-bold text-center">Sectional Analysis</h1>
+        <h1 className="text-xl lg:text-2xl font-bold text-center">Sectional Analysis</h1>
         <img
           src={lux_img_pt2}
           alt="LUX Analysis"
-          className="w-[auto] h-[70%] pt-3"
+          className="w-[auto] h-[70%] pt-3 p-2"
         />
       </div>
     </div>

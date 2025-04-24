@@ -86,7 +86,7 @@ const MonthlyConsumption = () => {
     <div>
       <div className="flex justify-between items-center mb-4">
         <div className="flex items-center">
-          <label htmlFor="year-picker" className="mr-2 text-sm font-medium">Year:</label>
+          <label htmlFor="year-picker" className="mr-2 text-sm font-semibold">Year:</label>
           <input 
             id="year-picker" 
             type="number" 

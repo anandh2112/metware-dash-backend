@@ -10,7 +10,7 @@ const CombinedComponent = () => {
 
   return (
     <div className="bg-white shadow-md rounded-lg p-4 sm:p-6 ">
-      <h1 className="text-2xl font-bold text-center text-black md:pb-0 lg:pb-0 xl:pb-7">Facility Information</h1>
+      <h1 className="text-xl lg:text-2xl font-bold text-center text-black md:pb-0 lg:pb-0 xl:pb-7">Facility Information</h1>
       <div className="grid lg:grid-cols-1 xl:grid-cols-2 gap-4 items-center w-full ">
         <div className="p-6 bg-white rounded-lg flex flex-col gap-[10px] items-center h-[100%]"> 
           <div className='flex aling-center justify-center '>

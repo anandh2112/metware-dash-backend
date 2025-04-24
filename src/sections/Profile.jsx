@@ -10,7 +10,7 @@ const Profile = () => {
   return (
     <div className="p-4 bg-gray-100 min-h-screen space-y-5">
         <ModelC />
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="flex flex-col sm:grid sm:grid-cols-2 gap-4">
         <DaylightFactorAnalysis />
         <Spa />
       </div>

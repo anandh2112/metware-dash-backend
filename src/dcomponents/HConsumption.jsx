@@ -129,9 +129,9 @@ const HConsumption = () => {
 
   return (
 <div className="w-full flex flex-col p-4 sm:p-6 bg-white shadow-lg rounded-lg">
-  <div className="flex justify-between items-center pb-6">
-    <h2 className="text-lg sm:text-xl font-semibold">Hourly Energy Consumption</h2>
-    <div className="flex flex-col sm:flex-row space-y-2 items-center sm:space-x-4">
+  <div className="flex flex-col sm:flex-row justify-between items-center pb-6 gap-2 sm:gap-0">
+    <h2 className="text-lg sm:text-xl font-semibold self-start sm:self-auto">Hourly Energy Consumption</h2>
+    <div className="flex flex-col-reverse sm:flex-row items-center sm:space-x-4 self-end sm:self-auto gap-2 sm:gap-0">
       <div className="flex items-center space-x-2">
         <span className="text-sm font-medium">kWh</span>
         <label className="relative inline-flex items-center cursor-pointer">

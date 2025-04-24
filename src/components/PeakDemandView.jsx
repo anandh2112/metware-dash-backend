@@ -59,9 +59,9 @@ const PeakDemandView = () => {
   if (!peakDemandData) return <div className="p-6">No data available for the selected date.</div>;
 
   return (
-    <div className="p-6 bg-gradient-to-br from-gray-100 to-gray-200 min-h-screen">
-      <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
-      <h1 className="text-2xl font-bold mb-4 text-center">
+    <div className="p-4 sm:p-6 bg-gradient-to-br from-gray-100 to-gray-200 min-h-screen">
+      <div className="bg-white shadow-lg rounded-lg p-2 sm:p-6 mb-6">
+      <h1 className="text-xl lg:text-2xl font-bold mb-4 text-center">
   Alert Logs
 </h1>
 

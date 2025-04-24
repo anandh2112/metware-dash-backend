@@ -84,8 +84,8 @@ const Settings = ({ setUserProfileName }) => {
         </div>
       )}
 
-      <div className="bg-white p-8 rounded-lg shadow-lg">
-        <h1 className="text-2xl font-bold mb-8 text-center">Settings</h1>
+      <div className="bg-white p-4 sm:p-8 rounded-lg shadow-lg">
+        <h1 className="text-xl lg:text-2xl font-bold mb-8 text-center">Settings</h1>
 
         {/* Profile Picture */}
         <div className="relative group w-32 h-32 mx-auto mb-10">
