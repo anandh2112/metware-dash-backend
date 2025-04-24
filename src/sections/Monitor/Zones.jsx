@@ -215,20 +215,20 @@ const Zones = () => {
       ) : (
         <div className="space-y-4">
           {(selectedView === 'all' ? zoneData : zoneData.filter(zone => zone.zoneId === selectedZone)).map((zone) => (
-            <div key={zone.zoneId} className="bg-white p-5 rounded-md shadow-sm overflow-x-auto overflow-y-hidden">
+            <div key={zone.zoneId} className="bg-white p-3 sm:p-5 rounded-md shadow-sm overflow-x-auto overflow-y-hidden">
               <div className="flex justify-between items-center mb-4">
                 <div>
-                  <h3 className="text-lg font-bold text-gray-800">{zone.zoneName}</h3>
+                  <h3 className="text-md sm:text-lg font-bold text-gray-800">{zone.zoneName}</h3>
                   <p className="text-sm text-gray-500">{zone.category}</p>
                 </div>
-                <div className="flex items-center space-x-4">
-                  <div className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
+                <div className="flex flex-col sm:flex-row items-center pt-2 sm:pt-0 gap-2 sm:gap-0 sm:space-x-4"> 
+                  <div className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs sm:text-sm font-medium">
                     PF: {zone.pf.toFixed(2)}
                   </div>
-                  <div className="flex items-center space-x-1 bg-gray-100 rounded-full p-1">
+                  <div className="flex items-center sm:space-x-1 bg-gray-100 rounded-full p-1">
                     <button
                       onClick={() => setConsumptionType('kWh')}
-                      className={`px-2 py-1 text-xs rounded-full ${
+                      className={`px-1 sm:px-2 py-1 text-[10px] sm:text-xs rounded-full ${
                         consumptionType === 'kWh' ? 'bg-blue-600 text-white' : 'text-gray-700 hover:bg-gray-200'
                       }`}
                     >
@@ -236,7 +236,7 @@ const Zones = () => {
                     </button>
                     <button
                       onClick={() => setConsumptionType('kVAh')}
-                      className={`px-2 py-1 text-xs rounded-full ${
+                      className={`px-1 sm:px-2 py-1 text-[10px] sm:text-xs rounded-full ${
                         consumptionType === 'kVAh' ? 'bg-blue-600 text-white' : 'text-gray-700 hover:bg-gray-200'
                       }`}
                     >
